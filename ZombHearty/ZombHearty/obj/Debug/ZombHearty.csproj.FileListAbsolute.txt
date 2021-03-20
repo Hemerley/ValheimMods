@@ -1,0 +1,13 @@
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\obj\Debug\ZombHearty.csprojAssemblyReference.cache
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\obj\Debug\ZombHearty.csproj.CoreCompileInputs.cache
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\ZombHearty.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\ZombHearty.pdb
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\0Harmony.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\assembly_valheim.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\BepInEx.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\SkillInjector.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\UnityEngine.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\bin\Debug\UnityEngineCoreModule.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\obj\Debug\ZombHearty.csproj.CopyComplete
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\obj\Debug\ZombHearty.dll
+C:\Users\bheme\source\repos\ZombHearty\ZombHearty\obj\Debug\ZombHearty.pdb

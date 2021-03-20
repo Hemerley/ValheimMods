@@ -1,0 +1,13 @@
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\obj\Debug\ZombFishing.csproj.CoreCompileInputs.cache
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\ZombFishing.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\ZombFishing.pdb
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\0Harmony.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\assembly_valheim.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\BepInEx.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\SkillInjector.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\UnityEngine.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\obj\Debug\ZombFishing.csproj.CopyComplete
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\obj\Debug\ZombFishing.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\obj\Debug\ZombFishing.pdb
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\bin\Debug\AutomaticDoorMod.dll
+C:\Users\bheme\source\repos\ZombFishing\ZombFishing\obj\Debug\ZombFishing.csprojAssemblyReference.cache
