@@ -25,6 +25,8 @@ namespace Common.Util
             public string tokenDescriptionValue;
             public string projectilePrefab;
             public string projectilePrefabName;
+            public int retrieveChance;
+            public bool enableRetrieve;
             public int minStationLevel;
             public bool enabled;
             public string repairStation;

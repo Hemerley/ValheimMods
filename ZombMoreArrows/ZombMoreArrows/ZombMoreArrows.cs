@@ -4,6 +4,7 @@ using System.IO;
 using System.Reflection;
 using LitJson;
 using UnityEngine;
+using HarmonyLib;
 
 namespace ZombMoreArrows
 {
@@ -13,12 +14,14 @@ namespace ZombMoreArrows
     {
         public const string MODID = "zombehian.MoreArrows";
         public const string MODNAME = "Zomb More Arrows";
-        public const string MODVER = "0.0.3";
+        public const string MODVER = "0.0.4";
+        private Harmony _harmony;
         internal static ZombMoreArrows Instance { get; private set; }
         private void Awake()
         {
             Instance = this;
             AssetHelper.Init("arrows", "arrow_recipes.json");
+            this._harmony = Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
         }
     }
 }
