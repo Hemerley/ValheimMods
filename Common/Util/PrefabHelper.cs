@@ -26,20 +26,20 @@ namespace Common.Util
                     {
                         neededResources.Add(MockRequirement.Create(component.item, component.amount));
                     }
-                    //if (rec.craftingStation != null)
-                    //{
-                    //    recipe.m_craftingStation = Mock<CraftingStation>.Create(rec.craftingStation);
-                    //}
-                    //if (rec.repairStation != null)
-                    //{
-                    //    recipe.m_repairStation = Mock<CraftingStation>.Create(rec.repairStation);
-                    //}
+                    if (rec.craftingStation != null)
+                    {
+                        recipe.m_craftingStation = Mock<CraftingStation>.Create(rec.craftingStation);
+                    }
+                    if (rec.repairStation != null)
+                    {
+                        recipe.m_repairStation = Mock<CraftingStation>.Create(rec.repairStation);
+                    }
                     recipe.m_amount = rec.amount;
-                    //recipe.m_minStationLevel = rec.minStationLevel;
+                    recipe.m_minStationLevel = rec.minStationLevel;
                     recipe.m_resources = neededResources.ToArray();
                 }
             }
-            CustomRecipe newRecipe = new CustomRecipe(recipe, false, true);
+            CustomRecipe newRecipe = new CustomRecipe(recipe, fixReference: true, true);
             ObjectDBHelper.Add(newRecipe);
         }
 

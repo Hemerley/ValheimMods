@@ -163,3 +163,4 @@ C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\bin\Debu
 C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\bin\Debug\0Harmony.xml
 C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\bin\Debug\BepInEx.xml
 C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.csproj.CopyComplete
+C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.csprojAssemblyReference.cache
