@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombFishing", "..\ZombFishing\ZombFishing\ZombFishing.csproj", "{3B315A37-AE12-40E5-8FE3-6F9EF89542F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombHearty", "..\ZombHearty\ZombHearty\ZombHearty.csproj", "{0C7B23D5-9767-48E8-B5B0-70A149441EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombMoreArrows", "..\ZombMoreArrows\ZombMoreArrows\ZombMoreArrows.csproj", "{73F20885-7082-4F3C-859D-D2C78472D0A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombMorePotions", "..\ZombMorePotions\ZombMorePotions\ZombMorePotions.csproj", "{61CDDD8D-08CC-4604-9C04-A85E2E3A1505}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common", "Common\Common.shproj", "{2E563D8A-2B39-4293-B200-E7A8D917A9D0}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Common\Common.projitems*{2e563d8a-2b39-4293-b200-e7a8d917a9d0}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B315A37-AE12-40E5-8FE3-6F9EF89542F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B315A37-AE12-40E5-8FE3-6F9EF89542F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B315A37-AE12-40E5-8FE3-6F9EF89542F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B315A37-AE12-40E5-8FE3-6F9EF89542F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7B23D5-9767-48E8-B5B0-70A149441EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7B23D5-9767-48E8-B5B0-70A149441EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7B23D5-9767-48E8-B5B0-70A149441EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7B23D5-9767-48E8-B5B0-70A149441EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F20885-7082-4F3C-859D-D2C78472D0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F20885-7082-4F3C-859D-D2C78472D0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F20885-7082-4F3C-859D-D2C78472D0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F20885-7082-4F3C-859D-D2C78472D0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CDDD8D-08CC-4604-9C04-A85E2E3A1505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CDDD8D-08CC-4604-9C04-A85E2E3A1505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CDDD8D-08CC-4604-9C04-A85E2E3A1505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CDDD8D-08CC-4604-9C04-A85E2E3A1505}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {859B33DD-E4DF-4757-85F5-A2A4BCBDBA21}
+	EndGlobalSection
+EndGlobal
