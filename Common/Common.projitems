@@ -9,5 +9,7 @@
     <Import_RootNamespace>Common</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Items.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\PrefabHelper.cs" />
   </ItemGroup>
 </Project>
