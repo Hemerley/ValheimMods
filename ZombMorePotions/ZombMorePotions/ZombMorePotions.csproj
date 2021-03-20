@@ -263,7 +263,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssetHelper.cs" />
     <Compile Include="Potions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

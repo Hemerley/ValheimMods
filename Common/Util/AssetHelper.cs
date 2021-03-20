@@ -3,7 +3,7 @@ using ValheimLib;
 using ValheimLib.ODB;
 using Common.Util;
 
-namespace ZombMoreArrows
+namespace Common.Util
 {
     class AssetHelper
     {
@@ -12,8 +12,8 @@ namespace ZombMoreArrows
 
         public static void Init(string assetbundle, string recipejson)
         {
-            assetBundle = ZombMoreArrows.LoadAssetBundle(assetbundle);
-            recipes = ZombMoreArrows.LoadJsonFile<Items.RecipesConfig>(recipejson);
+            assetBundle = Tools.LoadAssetBundle(assetbundle);
+            recipes = Tools.LoadJsonFile<Items.RecipesConfig>(recipejson);
 
             foreach (var recipe in recipes.recipes)
             {
@@ -31,7 +31,7 @@ namespace ZombMoreArrows
             {
                 foreach (var rec in recipes.recipes)
                 {
-                    if (rec.enabled)
+                    if (rec.enabled && rec.projectilePrefab != null)
                     {
                         var projectile = Prefab.Cache.GetPrefab<Projectile>(rec.projectilePrefab);
                         if (projectile)

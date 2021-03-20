@@ -81,7 +81,6 @@ C:\Users\bheme\source\repos\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePo
 C:\Users\bheme\source\repos\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.csproj.CopyComplete
 C:\Users\bheme\source\repos\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.dll
 C:\Users\bheme\source\repos\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.pdb
-C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.csprojAssemblyReference.cache
 C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.csproj.CoreCompileInputs.cache
 C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.dll
 C:\Users\bheme\source\repos\ValheimMods\ZombMorePotions\ZombMorePotions\obj\Debug\ZombMorePotions.pdb
