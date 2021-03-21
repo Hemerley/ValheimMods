@@ -14,7 +14,7 @@ namespace ZombMoreArrows
     {
         public const string MODID = "zombehian.MoreArrows";
         public const string MODNAME = "Zomb More Arrows";
-        public const string MODVER = "0.0.4";
+        public const string MODVER = "0.0.5";
         private Harmony _harmony;
         internal static ZombMoreArrows Instance { get; private set; }
         private void Awake()

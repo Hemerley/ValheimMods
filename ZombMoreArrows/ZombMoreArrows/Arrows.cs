@@ -13,7 +13,7 @@ namespace ZombMoreArrows
 			public static System.Random rnd = new System.Random();
 			public static void Prefix(ref Projectile __instance, Character owner)
 			{
-				if (__instance.name.Contains("bow_projectile"))
+				if (__instance.name.Contains("zomb_projectile"))
 				{
 					if (owner.IsPlayer())
 					{
