@@ -26,10 +26,24 @@ namespace Common.Util
             public string projectilePrefab;
             public string projectilePrefabName;
             public int retrieveChance;
-            public bool enableRetrieve;
             public int minStationLevel;
             public bool enabled;
             public string repairStation;
+            public int maxStackSize;
+            public double weight;
+            public int damage;
+            public int blunt;
+            public int slash;
+            public int pierce;
+            public int chop;
+            public int pickaxe;
+            public int fire;
+            public int frost;
+            public int lightning;
+            public int poison;
+            public int spirit;
+            public int attackForce;
+            public int backstabBonus;
             public List<RecipeRequirementConfig> resources = new List<RecipeRequirementConfig>();
         }
 

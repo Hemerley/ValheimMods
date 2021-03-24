@@ -10,7 +10,7 @@ namespace Common.Util
         public static Items.RecipesConfig recipes;
         public static AssetBundle assetBundle;
 
-        public static void Init(string assetbundle, string recipejson)
+        public static void Init(string assetbundle, string recipejson, bool craftingMode)
         {
             assetBundle = Tools.LoadAssetBundle(assetbundle);
             recipes = Tools.LoadJsonFile<Items.RecipesConfig>(recipejson);
@@ -23,7 +23,7 @@ namespace Common.Util
                     {
                         var prefab = assetBundle.LoadAsset<GameObject>(recipe.item);
                         PrefabHelper.AddCustomItem(prefab, recipes);
-                        PrefabHelper.AddCustomRecipe(prefab, recipes);
+                        PrefabHelper.AddCustomRecipe(prefab, recipes, craftingMode);
                     }
                 }
             }
@@ -39,6 +39,7 @@ namespace Common.Util
                             var prefab = assetBundle.LoadAsset<GameObject>(rec.item);
                             GameObject projectilePrefab = Prefab.InstantiateClone(projectile.gameObject, rec.projectilePrefabName);
                             prefab.GetComponent<ItemDrop>().m_itemData.m_shared.m_attack.m_attackProjectile = projectilePrefab;
+
                         }
                     }
                 }

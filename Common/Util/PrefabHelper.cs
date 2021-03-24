@@ -13,7 +13,7 @@ namespace Common.Util
             Language.AddToken(TokenDescripion, TokenDescriptionValue);
         }
 
-        public static void AddCustomRecipe(GameObject prefab, Items.RecipesConfig recipes)
+        public static void AddCustomRecipe(GameObject prefab, Items.RecipesConfig recipes, bool craftingMode)
         {
             var recipe = ScriptableObject.CreateInstance<Recipe>();
             recipe.m_item = prefab.GetComponent<ItemDrop>();
@@ -26,7 +26,7 @@ namespace Common.Util
                     {
                         neededResources.Add(MockRequirement.Create(component.item, component.amount));
                     }
-                    if (rec.craftingStation != null)
+                    if (rec.craftingStation != null && craftingMode != true)
                     {
                         recipe.m_craftingStation = Mock<CraftingStation>.Create(rec.craftingStation);
                     }

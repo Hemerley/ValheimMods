@@ -3,6 +3,7 @@ using System.IO;
 using System.Reflection;
 using LitJson;
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace Common.Util
 {
@@ -29,7 +30,7 @@ namespace Common.Util
                 assetFileName = Path.Combine(Path.GetDirectoryName(assembly.Location), assetName);
                 if (!File.Exists(assetFileName))
                 {
-                    Debug.LogError($"[More Potions] Could not find asset ({assetName})");
+                    Debug.LogError($"[Zomb Library] Could not find asset ({assetName})");
                     return null;
                 }
             }
@@ -44,7 +45,33 @@ namespace Common.Util
             {
                 return AssetBundle.LoadFromFile(assetBundlePath);
             }
-            Debug.LogError($"[More Potions] Could not find asset bubled ({filename})");
+            Debug.LogError($"[Zomb Library] Could not find asset bubled ({filename})");
+            return null;
+        }
+
+        public static bool FindMonster(Monsters.MonsterConfig monster, ref List<Monsters.MonsterConfig>monsters)
+        {
+            foreach (var item in monsters)
+            {
+                if (item.monsterID == monster.monsterID)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static Monsters.MonsterConfig GetMonster(MonsterAI monster, ref List<Monsters.MonsterConfig>monsters)
+        {
+            foreach (var item in monsters)
+            {
+
+                if (monster.m_tamable == item.monsterID)
+                {
+                    Debug.LogWarning("Found Our Monster");
+                    return item;
+                }
+            }   
             return null;
         }
     }

@@ -18,7 +18,7 @@ namespace ZombMorePotions
         private void Awake()
         {
             Instance = this;
-            AssetHelper.Init("potions", "potions_recipes.json");
+            AssetHelper.Init("potions", "potions_recipes.json", false);
         }
     }
 }

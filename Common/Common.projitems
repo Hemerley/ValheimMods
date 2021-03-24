@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Util\AssetHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Util\Items.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Util\Monsters.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Util\PrefabHelper.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Util\Tools.cs" />
   </ItemGroup>
